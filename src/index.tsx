@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Hello from './Components/Hello';
+import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(<div><h1> Hello World!!</h1><Hello /></div>, document.getElementById("root"));
+ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, document.getElementById("root"));
