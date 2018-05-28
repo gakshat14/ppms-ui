@@ -1,0 +1,40 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-image: linear-gradient(to right top, #9a9fa7, #88b2c6, #63c8d2, #55dcc3, #83eb9b);
+    background-repeat: no-repeat;
+}
+.entry-div{
+    position: absolute;
+    top: 35%;
+}
+.entry-div h1 {
+    font-size: 66px;
+}
+.entry-div .btn {
+    margin-left: 10px;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dashboard .col-md-4{
+    border: 1px solid;
+    background: white;
+}
+.dashboard{
+    margin-top: 10px;
+}
+.loc1{
+    background-image: url('../images/Car1\ Path.png');
+    background-size: cover;
+    height: 300px;
+    width: 500px;
+}
+.loc2{
+    background-image: url('../images/Car4\ Path.png');
+    background-size: cover;
+    height: 300px;
+    width: 500px;
+}

@@ -49,6 +49,11 @@ module.exports = function() {
                 test: /\.css$/,
                 exclude: /node_modules/,
                 use: ['style-loader', 'css-loader']
+            },
+            {
+                test: /\.(png)/,
+                use: ['file-loader?hash=sha512&digest=hex&name=[hash].[ext]'],
+                exclude: /node_modules/
             }
         ]
     };
@@ -59,7 +64,8 @@ module.exports = function() {
         disableHostCheck: true,
         headers: {
         'Access-Control-Allow-Origin': '*'
-        }
+        },
+        historyApiFallback: true
     };
 
     return config;
